@@ -12,13 +12,13 @@ from uwsgi import cache_exists, cache_get, cache_set, cache_update
 
 repo = './repo/'
 
-from flask import Flask
+from flask import Flask,redirect,url_for
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "hello! please read the readme."
+	return redirect(url_for('static', filename='index.html'))
 
 @app.route('/feed/<feedurl>')
 def feed(feedurl):

@@ -4,11 +4,8 @@
         <title>polybius subscriptions</title>
     </head>
     <body>
+	<outline title="polybius subscriptions" text="polybius subscriptions">
         <outline title="Tech" text="Tech">
-        <outline
-            text="Ada: A Journal of Gender, New Media, and Technology"
-            title="Ada: A Journal of Gender, New Media, and Technology"
-            type="rss" xmlUrl="http://adanewmedia.org/feed/" htmlUrl="http://adanewmedia.org"/>
             <outline text="Anil Dash" title="Anil Dash" type="rss"
                 xmlUrl="http://feeds.dashes.com/AnilDash" htmlUrl="http://dashes.com/anil/"/>
             <outline text="Ars Technica - All Ars Technica Content"
@@ -74,6 +71,7 @@
             xmlUrl="http://thingsorganizedneatly.tumblr.com/rss" htmlUrl="http://thingsorganizedneatly.tumblr.com/"/>
             <outline text="xkcd.com" title="xkcd.com" type="rss"
                 xmlUrl="http://www.xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+        </outline>
         </outline>
     </body>
 </opml>
