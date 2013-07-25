@@ -1,0 +1,30 @@
+.feed_entry_list_item {
+	display: block;
+	min-height: 40px;
+	font-size:18pt;
+}
+
+.feed_entry_list_item:focus {
+	background-color: #B0B0E5;
+	outline: none;
+}
+
+.feed_entry_list_item_block {
+	display: block;
+	background-color: #EEEEEE;
+}
+.feed_entry_list_item_block:hover {
+	background-color: #DDDDDD;
+}
+
+.feed_entry_display_area {
+	margin: 5px;
+	background-color: #FEFEFE;
+}
+
+.feed_entry_display_title {
+}
+.feed_entry_byline {
+}
+.feed_entry_content{
+}

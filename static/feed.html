@@ -1,0 +1,40 @@
+<script type="text/ng-template" id="feed_item.html">
+  <div class="span12">
+  <div class="feed_entry_list_item_block">
+  <a href="" class="feed_entry_list_item" ng-click="item.show=!item.show;item.limbo=item.now;item.now=item.future;item.future=item.limbo;" tabindex="{{feed.entry.indexOf(item)+10}}">
+    <i ng-show="!item.show" class="icon-chevron-up pull-right feed_item_icon"></i>
+    <i ng-show="item.show" class="icon-chevron-down pull-right feed_item_icon"></i>
+	{{item.title}}
+  </a>
+  <div ng-show="item.show" class="feed_entry_display_area">
+    <h4 class="feed_entry_display_title">
+      <a href="{{item.link}}" target="_new">{{item.title}}</a>
+    </h4>
+    <h6 class="feed_entry_byline" ng-show="item.updated || item.author">
+      <span ng-show="item.updated">{{item.updated}}</span>
+      <span ng-show="item.author">by {{item.author}}</span>
+    </h6>
+           <div class="feed_entry_content" ng-bind-html-unsafe="item.now"></div>
+    <div class="feed_entry_footer" >
+      <h6><a href="{{item.link}}" target="_new">Original Item Link</a> {{item.updated}}</h6>	
+    </div>
+  </div>
+  </div>
+  </div>
+</script>
+
+<div class="row-fluid">
+<div class="span12 common_links">
+<a href="{{feedurl |feedrefreshurl}}"><i class="icon-refresh"></i> Refresh</a> | 
+<a href="{{feedurl |feedhtmlurl}}"><i class="icon-book"></i> HTML</a> |
+<a href="{{feedurl |feedlinkurl}}"><i class="icon-list"></i> Cached</a> |
+<a href="{{feedurl |entriesfeedlinkurl}}"><i class="icon-file"></i> List</a>
+</div>
+</div>
+
+<div class="page-header">
+<h1><a href="{{feed.feed.link}}">{{feed.feed.title}}</a></h1>
+<small>{{feed.feed.subtitle}}</small>
+</div>
+
+<div class="row-fluid" ng-repeat="item in feed.entry" ng-include="'feed_item.html'" ng-init="item.show=false; item.now=''; item.future=item.content[0].value; item.libmo=''"></div>

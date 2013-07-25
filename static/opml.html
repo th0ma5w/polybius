@@ -1,0 +1,30 @@
+<script type="text/ng-template" id="opml_item.html">
+	<span ng-show="nochildren" class="lead">
+	<a href="{{o.outline.xmlUrl |urlbuild:'feed':true}}" target="_new">
+		{{o.outline.title}}
+	</a>
+	</span>
+	<div ng-show="haschildren">
+		<h2>
+		{{o.outline.title}}
+		</h2>
+		<div ng-repeat="o in o.outline.outlines" ng-include="'opml_item.html'" ng-init="haschildren = o.outline.outlines.length > 0; nochildren = !haschildren"></div>
+	</div>
+</script>
+
+
+<div class="row-fluid">
+<div class="span12">
+<div class="page-header">
+<h1 class="text-center">{{opml.title}}</h1>
+</div>
+</div>
+</div>
+
+<div class="row-fluid">
+<div class="span12">
+<div class="text-center">
+<div ng-repeat="o in opml.opml" ng-include="'opml_item.html'" ng-init="haschildren = o.outline.outlines.length > 0; nochildren = !haschildren"></div>
+</div>
+</div>
+</div>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>polybius subscriptions</title>
+    </head>
+    <body>
+        <outline title="Tech" text="Tech">
+        <outline
+            text="Ada: A Journal of Gender, New Media, and Technology"
+            title="Ada: A Journal of Gender, New Media, and Technology"
+            type="rss" xmlUrl="http://adanewmedia.org/feed/" htmlUrl="http://adanewmedia.org"/>
+            <outline text="Anil Dash" title="Anil Dash" type="rss"
+                xmlUrl="http://feeds.dashes.com/AnilDash" htmlUrl="http://dashes.com/anil/"/>
+            <outline text="Ars Technica - All Ars Technica Content"
+                title="Ars Technica - All Ars Technica Content"
+                type="rss"
+                xmlUrl="http://feeds.arstechnica.com/arstechnica/everything" htmlUrl="http://arstechnica.com"/>
+            <outline text="BruceS" title="BruceS" type="rss"
+                xmlUrl="http://brucesterling.tumblr.com/rss" htmlUrl="http://brucesterling.tumblr.com/"/>
+            <outline text="Boing Boing" title="Boing Boing" type="rss"
+                xmlUrl="http://www.boingboing.net/index.rdf" htmlUrl="http://boingboing.net"/>
+        <outline text="Computational Culture"
+            title="Computational Culture" type="rss"
+            xmlUrl="http://computationalculture.net/feed" htmlUrl="http://computationalculture.net"/>
+        <outline text="Daily Dot" title="Daily Dot" type="rss"
+            xmlUrl="http://www.dailydot.com/feed/full/latest/" htmlUrl="http://www.dailydot.com/"/>
+        <outline text="Dangerous Prototypes"
+            title="Dangerous Prototypes" type="rss"
+            xmlUrl="http://dangerousprototypes.com/feed/" htmlUrl="http://dangerousprototypes.com"/>
+        <outline text="Daring Fireball" title="Daring Fireball"
+            type="rss" xmlUrl="http://daringfireball.net/index.xml" htmlUrl="http://daringfireball.net/"/>
+            <outline text="Hacker News" title="Hacker News" type="rss"
+                xmlUrl="http://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+        <outline text="Little Big Details" title="Little Big Details"
+            type="rss" xmlUrl="http://littlebigdetails.com/rss" htmlUrl="http://littlebigdetails.com/"/>
+        <outline text="The Verge -  All Posts"
+            title="The Verge -  All Posts" type="rss"
+            xmlUrl="http://www.theverge.com/rss/index.xml" htmlUrl="http://www.theverge.com/"/>
+        <outline text="W3C Blog" title="W3C Blog" type="rss"
+            xmlUrl="http://www.w3.org/QA/atom.xml" htmlUrl="http://www.w3.org/QA/"/>
+        </outline>
+        <outline title="Culture" text="Culture">
+        <outline text="BELL" title="BELL" type="rss"
+            xmlUrl="http://bellinspace.tumblr.com/rss" htmlUrl="http://bellinspace.tumblr.com/"/>
+        <outline text="Magazine Wall" title="Magazine Wall" type="rss"
+            xmlUrl="http://magazinewall.tumblr.com/rss" htmlUrl="http://magazinewall.tumblr.com/"/>
+        <outline text="RHIZOME DOT ORG" title="RHIZOME DOT ORG"
+            type="rss" xmlUrl="http://rhizomedotorg.tumblr.com/rss" htmlUrl="http://rhizomedotorg.tumblr.com/"/>
+        <outline text="The Morning News" title="The Morning News"
+            type="rss" xmlUrl="http://www.themorningnews.org/rss.xml" htmlUrl="http://www.themorningnews.org/"/>
+        <outline text="The New Aesthetic" title="The New Aesthetic"
+            type="rss" xmlUrl="http://new-aesthetic.tumblr.com/rss" htmlUrl="http://new-aesthetic.tumblr.com/"/>
+        </outline>
+        <outline title="Ephemera" text="Ephemera">
+            <outline text="In Focus" title="In Focus" type="rss"
+                xmlUrl="http://feeds.feedburner.com/theatlantic/infocus" htmlUrl="http://www.theatlantic.com/infocus/"/>
+            <outline text="kottke.org" title="kottke.org" type="rss"
+                xmlUrl="http://feeds.kottke.org/main" htmlUrl="http://kottke.org/"/>
+            <outline text="mental_floss on tumblr"
+                title="mental_floss on tumblr" type="rss"
+                xmlUrl="http://mentalflossr.tumblr.com/rss" htmlUrl="http://mentalflossr.tumblr.com/"/>
+            <outline text="National Geographic Found"
+                title="National Geographic Found" type="rss"
+                xmlUrl="http://natgeofound.tumblr.com/rss" htmlUrl="http://natgeofound.tumblr.com/"/>
+            <outline text="Waxy.org Links" title="Waxy.org Links"
+                type="rss" xmlUrl="http://waxy.org/links/index.xml" htmlUrl="http://www.waxy.org/links/"/>
+        </outline>
+        <outline title="Fun" text="Fun">
+        <outline text=">> Fake Anything &lt;&lt;"
+            title=">> Fake Anything &lt;&lt;" type="rss"
+            xmlUrl="http://blog.fakeanything.com/?feed=rss2" htmlUrl="http://blog.fakeanything.com"/>
+        <outline text="Things Organized Neatly"
+            title="Things Organized Neatly" type="rss"
+            xmlUrl="http://thingsorganizedneatly.tumblr.com/rss" htmlUrl="http://thingsorganizedneatly.tumblr.com/"/>
+            <outline text="xkcd.com" title="xkcd.com" type="rss"
+                xmlUrl="http://www.xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+        </outline>
+    </body>
+</opml>
