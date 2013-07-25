@@ -12,6 +12,7 @@
 .feed_entry_list_item_block {
 	display: block;
 	background-color: #EEEEEE;
+	margin: 5px;
 }
 .feed_entry_list_item_block:hover {
 	background-color: #DDDDDD;
