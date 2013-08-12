@@ -24,3 +24,17 @@ a feed reader backed by git
 - a mobile friendly example interface
 - stands on the shoulders of giants
 
+# example interface
+
+- cobbled together with [bootstrap](http://getbootstrap.com/) and [angularjs](http://angularjs.org/)
+- "works on my my machine" or in this case my phone
+
+### opml subscriptions
+
+<img src="https://pbs.twimg.com/media/BP_LsgACEAAcPf6.png" />
+
+### feed display
+
+<img src="https://pbs.twimg.com/media/BP_L6q8CAAAabVN.png" />
+
+
