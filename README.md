@@ -28,7 +28,7 @@ a feed reader backed by git
 # example interface
 
 - cobbled together with [bootstrap](http://getbootstrap.com/) and [angularjs](http://angularjs.org/)
-- "works on my my machine" or in this case my phone
+- "works on my machine" or in this case my phone
 
 ### opml subscriptions
 
