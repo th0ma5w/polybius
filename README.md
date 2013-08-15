@@ -21,6 +21,7 @@ a feed reader backed by git
 - stores the original downloaded feed
 - treats the commit log like a database
 - retrieves historical items
+- serves [json-ld](http://json-ld.org/)
 - a mobile friendly example interface
 - stands on the shoulders of giants
 
